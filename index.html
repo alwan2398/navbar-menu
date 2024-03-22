@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- link to css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- link to remix icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>side menu portofolio - @alwanbalweel</title>
+  </head>
+  <body>
+    <!-- nav -->
+    <nav class="nav" id="nav">
+      <div class="nav__menu container" id="nav-menu">
+        <div class="nav__shape"></div>
+
+        <!-- nav close -->
+        <div class="nav__close" id="nav-close">
+          <i class="ri-close-line"></i>
+        </div>
+
+        <!-- data and profile -->
+        <div class="nav__data">
+          <div class="nav__mask">
+            <img src="image/profile.png" alt="profile" class="nav__img" />
+          </div>
+
+          <!-- nama -->
+          <span class="nav__greeting">Hi, Saya</span>
+          <h1 class="nav__name">
+            Muhamad <br />
+            Alwan
+          </h1>
+        </div>
+
+        <!-- list Navbar -->
+        <ul class="nav__list">
+          <li class="nav__item">
+            <a href="#home" class="nav__link active-link"
+              ><i class="ri-home-line"></i> Home</a
+            >
+          </li>
+
+          <li class="nav__item">
+            <a href="#about" class="nav__link"
+              ><i class="ri-user-line"></i> About</a
+            >
+          </li>
+
+          <li class="nav__item">
+            <a href="#project" class="nav__link"
+              ><i class="ri-briefcase-4-fill"></i> Project</a
+            >
+          </li>
+
+          <li class="nav__item">
+            <a href="#skill" class="nav__link"
+              ><i class="ri-bookmark-fill"></i> Skill</a
+            >
+          </li>
+
+          <li class="nav__item">
+            <a href="#contact" class="nav__link"
+              ><i class="ri-question-answer-fill"></i> Contact</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- HEADER AND MAIN -->
+    <main class="main" id="main">
+      <header class="header" id="header">
+        <nav class="header__nav container">
+          <a href="#" class="header__logo"> Alwan </a>
+          <!-- Toggle and button -->
+          <div class="header__toggle" id="header-toggle">
+            <i class="ri-apps-line"></i>
+          </div>
+        </nav>
+      </header>
+
+      <!-- Home -->
+      <section class="section section__height container" id="home">
+        <h1>Home</h1>
+      </section>
+
+      <!-- About -->
+      <section class="section section__height container" id="about">
+        <h1>About</h1>
+      </section>
+
+      <!-- Project -->
+      <section class="section section__height container" id="project">
+        <h1>Project</h1>
+      </section>
+
+      <!-- Skill -->
+      <section class="section section__height container" id="skill">
+        <h1>Skill</h1>
+      </section>
+
+      <!-- Contact -->
+      <section class="section section__height container" id="contact">
+        <h1>Contact</h1>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
